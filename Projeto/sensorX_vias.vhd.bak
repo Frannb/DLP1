@@ -1,0 +1,24 @@
+ibrary ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity sensorX_vias is
+	generic
+	(N_vias 		 : natural := 1); 		-- Numero de vias
+		
+	port
+	(Sensor_in : in std_logic_vector (1 to N_vias);
+	 Sensor_out: out std_logic); -- contador display
+		
+end entity;
+
+architecture FRANCIN of sensorX_vias is
+begin
+
+	for <loop_id> in <range> loop
+		
+		
+	end loop;
+
+
+end architecture;

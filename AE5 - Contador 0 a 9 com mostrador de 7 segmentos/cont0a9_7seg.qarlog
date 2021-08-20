@@ -1,0 +1,36 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qar
+Date:		Sat Jun 13 17:52:56 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qpf
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qsf
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.vhd
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/incremental_db/compiled_partitions/cont0a9_7seg.db_info
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/output_files/cont0a9_7seg.sof
+/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/tb_contador0a9.vwf
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Aug 20 01:08:15 2020
+Source archive file:	/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qar
+Archive was extracted into	/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Aug 26 01:39:44 2020
+Source archive file:	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qar
+Archive was extracted into	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Wed Aug 26 02:04:51 2020
+Source archive file:	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qar
+Archive was extracted into	/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/
+		 - successfully.

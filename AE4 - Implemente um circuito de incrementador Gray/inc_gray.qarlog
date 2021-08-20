@@ -1,0 +1,19 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/inc_gray.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/inc_gray.qar
+Date:		Tue Apr 28 15:48:51 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/Waveform.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/Waveform1.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/db/inc_gray.sim.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/inc_gray.qpf
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/inc_gray.qsf
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/inc_gray.vhd
+/home/francin.b/DLP I (20-1)/Tarefas/AE4 - Implemente um circuito de incrementador Gray/incremental_db/compiled_partitions/inc_gray.db_info
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,32 @@
+|cont0a9_7seg
+Clk50MHz => \process_1:cnt[0].CLK
+Clk50MHz => \process_1:cnt[1].CLK
+Clk50MHz => \process_1:cnt[2].CLK
+Clk50MHz => \process_1:cnt[3].CLK
+Clk50MHz => cnt[0].CLK
+Clk50MHz => cnt[1].CLK
+Clk50MHz => cnt[2].CLK
+Clk50MHz => cnt[3].CLK
+rst => \process_1:cnt[0].ACLR
+rst => \process_1:cnt[1].ACLR
+rst => \process_1:cnt[2].ACLR
+rst => \process_1:cnt[3].ACLR
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+LED_MR0 <= <GND>
+LED_BLUE <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+LED_CNT[0] <= \process_1:cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+LED_CNT[1] <= \process_1:cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+LED_CNT[2] <= \process_1:cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+LED_CNT[3] <= \process_1:cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+SSD_OUT[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

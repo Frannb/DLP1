@@ -1,0 +1,285 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 32-bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "09/10/2020 01:50:29"
+
+// 
+// Device: Altera EP1C3T100A8 Package TQFP100
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module SensorN_vias (
+	clk,
+	reset,
+	Sensor_V1,
+	Sensor_V2,
+	Sensor_V3,
+	Sensor_out);
+input 	clk;
+input 	reset;
+input 	Sensor_V1;
+input 	Sensor_V2;
+input 	Sensor_V3;
+output 	Sensor_out;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \clk~combout ;
+wire \Sensor_V1~combout ;
+wire \Sensor_V2~combout ;
+wire \Sensor_V3~combout ;
+wire \reset~combout ;
+wire \pr_state~regout ;
+
+
+cyclone_io \clk~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\clk~combout ),
+	.regout(),
+	.padio(clk));
+// synopsys translate_off
+defparam \clk~I .input_async_reset = "none";
+defparam \clk~I .input_power_up = "low";
+defparam \clk~I .input_register_mode = "none";
+defparam \clk~I .input_sync_reset = "none";
+defparam \clk~I .oe_async_reset = "none";
+defparam \clk~I .oe_power_up = "low";
+defparam \clk~I .oe_register_mode = "none";
+defparam \clk~I .oe_sync_reset = "none";
+defparam \clk~I .operation_mode = "input";
+defparam \clk~I .output_async_reset = "none";
+defparam \clk~I .output_power_up = "low";
+defparam \clk~I .output_register_mode = "none";
+defparam \clk~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cyclone_io \Sensor_V1~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Sensor_V1~combout ),
+	.regout(),
+	.padio(Sensor_V1));
+// synopsys translate_off
+defparam \Sensor_V1~I .input_async_reset = "none";
+defparam \Sensor_V1~I .input_power_up = "low";
+defparam \Sensor_V1~I .input_register_mode = "none";
+defparam \Sensor_V1~I .input_sync_reset = "none";
+defparam \Sensor_V1~I .oe_async_reset = "none";
+defparam \Sensor_V1~I .oe_power_up = "low";
+defparam \Sensor_V1~I .oe_register_mode = "none";
+defparam \Sensor_V1~I .oe_sync_reset = "none";
+defparam \Sensor_V1~I .operation_mode = "input";
+defparam \Sensor_V1~I .output_async_reset = "none";
+defparam \Sensor_V1~I .output_power_up = "low";
+defparam \Sensor_V1~I .output_register_mode = "none";
+defparam \Sensor_V1~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cyclone_io \Sensor_V2~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Sensor_V2~combout ),
+	.regout(),
+	.padio(Sensor_V2));
+// synopsys translate_off
+defparam \Sensor_V2~I .input_async_reset = "none";
+defparam \Sensor_V2~I .input_power_up = "low";
+defparam \Sensor_V2~I .input_register_mode = "none";
+defparam \Sensor_V2~I .input_sync_reset = "none";
+defparam \Sensor_V2~I .oe_async_reset = "none";
+defparam \Sensor_V2~I .oe_power_up = "low";
+defparam \Sensor_V2~I .oe_register_mode = "none";
+defparam \Sensor_V2~I .oe_sync_reset = "none";
+defparam \Sensor_V2~I .operation_mode = "input";
+defparam \Sensor_V2~I .output_async_reset = "none";
+defparam \Sensor_V2~I .output_power_up = "low";
+defparam \Sensor_V2~I .output_register_mode = "none";
+defparam \Sensor_V2~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cyclone_io \Sensor_V3~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\Sensor_V3~combout ),
+	.regout(),
+	.padio(Sensor_V3));
+// synopsys translate_off
+defparam \Sensor_V3~I .input_async_reset = "none";
+defparam \Sensor_V3~I .input_power_up = "low";
+defparam \Sensor_V3~I .input_register_mode = "none";
+defparam \Sensor_V3~I .input_sync_reset = "none";
+defparam \Sensor_V3~I .oe_async_reset = "none";
+defparam \Sensor_V3~I .oe_power_up = "low";
+defparam \Sensor_V3~I .oe_register_mode = "none";
+defparam \Sensor_V3~I .oe_sync_reset = "none";
+defparam \Sensor_V3~I .operation_mode = "input";
+defparam \Sensor_V3~I .output_async_reset = "none";
+defparam \Sensor_V3~I .output_power_up = "low";
+defparam \Sensor_V3~I .output_register_mode = "none";
+defparam \Sensor_V3~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cyclone_io \reset~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\reset~combout ),
+	.regout(),
+	.padio(reset));
+// synopsys translate_off
+defparam \reset~I .input_async_reset = "none";
+defparam \reset~I .input_power_up = "low";
+defparam \reset~I .input_register_mode = "none";
+defparam \reset~I .input_sync_reset = "none";
+defparam \reset~I .oe_async_reset = "none";
+defparam \reset~I .oe_power_up = "low";
+defparam \reset~I .oe_register_mode = "none";
+defparam \reset~I .oe_sync_reset = "none";
+defparam \reset~I .operation_mode = "input";
+defparam \reset~I .output_async_reset = "none";
+defparam \reset~I .output_power_up = "low";
+defparam \reset~I .output_register_mode = "none";
+defparam \reset~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cyclone_lcell pr_state(
+// Equation(s):
+// \pr_state~regout  = DFFEAS((!\Sensor_V1~combout  & (!\Sensor_V2~combout  & (!\Sensor_V3~combout ))), \clk~combout , !\reset~combout , , , , , , )
+
+	.clk(\clk~combout ),
+	.dataa(\Sensor_V1~combout ),
+	.datab(\Sensor_V2~combout ),
+	.datac(\Sensor_V3~combout ),
+	.datad(vcc),
+	.aclr(\reset~combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(),
+	.regout(\pr_state~regout ),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam pr_state.lut_mask = "0101";
+defparam pr_state.operation_mode = "normal";
+defparam pr_state.output_mode = "reg_only";
+defparam pr_state.register_cascade_mode = "off";
+defparam pr_state.sum_lutc_input = "datac";
+defparam pr_state.synch_mode = "off";
+// synopsys translate_on
+
+cyclone_io \Sensor_out~I (
+	.datain(\pr_state~regout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.padio(Sensor_out));
+// synopsys translate_off
+defparam \Sensor_out~I .input_async_reset = "none";
+defparam \Sensor_out~I .input_power_up = "low";
+defparam \Sensor_out~I .input_register_mode = "none";
+defparam \Sensor_out~I .input_sync_reset = "none";
+defparam \Sensor_out~I .oe_async_reset = "none";
+defparam \Sensor_out~I .oe_power_up = "low";
+defparam \Sensor_out~I .oe_register_mode = "none";
+defparam \Sensor_out~I .oe_sync_reset = "none";
+defparam \Sensor_out~I .operation_mode = "output";
+defparam \Sensor_out~I .output_async_reset = "none";
+defparam \Sensor_out~I .output_power_up = "low";
+defparam \Sensor_out~I .output_register_mode = "none";
+defparam \Sensor_out~I .output_sync_reset = "none";
+// synopsys translate_on
+
+endmodule

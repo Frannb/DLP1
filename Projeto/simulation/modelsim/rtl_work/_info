@@ -1,0 +1,408 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim
+Ebin2bcd
+Z1 w1599706194
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 d/home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim
+Z6 8/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2bcd.vhd
+Z7 F/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2bcd.vhd
+l0
+L5
+Vjdl>:`ZUgLWad=WX]eE;11
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1601490303.825639
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2bcd.vhd|
+Z11 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/bin2bcd.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 ^iPBZ?dT1Y@C<zO7VO_Dn1
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 7 bin2bcd 0 22 jdl>:`ZUgLWad=WX]eE;11
+l18
+L15
+VHLeQmP?bKVj5^E8oU7m^K3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 fl_ZI1aJ6`1m^`l`;7>b<0
+!i10b 1
+Ebin2ssd
+Z14 w1599101541
+R2
+R3
+R4
+R5
+Z15 8/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2ssd.vhd
+Z16 F/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2ssd.vhd
+l0
+L5
+Vz[R@4oFmcbn;=n26PXzLc1
+R8
+31
+Z17 !s108 1601490307.571568
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2ssd.vhd|
+Z19 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/bin2ssd.vhd|
+R12
+R13
+!s100 l>ggXCdN_82T]:8i@I?YA3
+!i10b 1
+Aifsc
+R2
+R3
+R4
+DEx4 work 7 bin2ssd 0 22 z[R@4oFmcbn;=n26PXzLc1
+l19
+L15
+Vb3R@fG0SoY[kcU2g2WI5K2
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 30<HRX44PHEg=>m7aKdae2
+!i10b 1
+Ebin_bcd_ssd
+Z20 w1599931155
+R2
+R3
+R4
+R5
+Z21 8/home/aluno/pasta_remota/DLP_20_1/Projeto/bin_bcd_ssd.vhd
+Z22 F/home/aluno/pasta_remota/DLP_20_1/Projeto/bin_bcd_ssd.vhd
+l0
+L5
+VMNOHMSOj<I[LP2W0=]CjH1
+R8
+31
+Z23 !s108 1601490322.897988
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/bin_bcd_ssd.vhd|
+Z25 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/bin_bcd_ssd.vhd|
+R12
+R13
+!s100 G8[M4DUdU71hSjc5=[HKZ2
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 11 bin_bcd_ssd 0 22 MNOHMSOj<I[LP2W0=]CjH1
+l41
+L16
+Vd]`1TB;>9SSAO^?bh][FS0
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 U=P3bCz4deBT9G0Kmo]@S1
+!i10b 1
+Ebotao_ped
+Z26 w1599922450
+R2
+R3
+R4
+R5
+Z27 8/home/aluno/pasta_remota/DLP_20_1/Projeto/Botao_ped.vhd
+Z28 F/home/aluno/pasta_remota/DLP_20_1/Projeto/Botao_ped.vhd
+l0
+L5
+VXZjlm2T@kB8WTj`61O1`M3
+R8
+31
+Z29 !s108 1601490319.666453
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/Botao_ped.vhd|
+Z31 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/Botao_ped.vhd|
+R12
+R13
+!s100 YKQoPK5fgM^Dm[A9j@0[a2
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 9 botao_ped 0 22 XZjlm2T@kB8WTj`61O1`M3
+l15
+L14
+VJCYESIJWKiJF`B95@lKTG3
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 ?<gmQ751N=fIe3MBca=Lb0
+!i10b 1
+Edecrementador
+Z32 w1600380086
+R2
+R3
+R4
+R5
+Z33 8/home/aluno/pasta_remota/DLP_20_1/Projeto/Decrementador.vhd
+Z34 F/home/aluno/pasta_remota/DLP_20_1/Projeto/Decrementador.vhd
+l0
+L5
+V^06]SH4eDkJe<df<[R4Io1
+R8
+31
+Z35 !s108 1601490326.930372
+Z36 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/Decrementador.vhd|
+Z37 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/Decrementador.vhd|
+R12
+R13
+!s100 4>Hg3mY?WPYgPIYiLWc<70
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 13 decrementador 0 22 ^06]SH4eDkJe<df<[R4Io1
+l31
+L27
+V8C?;GHR2AKm^PHcE565E20
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 <J0RS[<3Zd_`X8X0h_FHf0
+!i10b 1
+Edivisor_clk
+Z38 w1599705952
+R3
+R4
+R5
+Z39 8/home/aluno/pasta_remota/DLP_20_1/Projeto/divisor_clk.vhd
+Z40 F/home/aluno/pasta_remota/DLP_20_1/Projeto/divisor_clk.vhd
+l0
+L3
+VYU8n;`N070hOa6CD9Yo3>1
+R8
+31
+Z41 !s108 1601490300.103696
+Z42 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/divisor_clk.vhd|
+Z43 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/divisor_clk.vhd|
+R12
+R13
+!s100 lUFC6dVoeOi;iARU1m8LE3
+!i10b 1
+Afrancin
+R3
+R4
+DEx4 work 11 divisor_clk 0 22 YU8n;`N070hOa6CD9Yo3>1
+l17
+L15
+Vb]EVzHcn_Y[1c6BI_N5z30
+R8
+31
+R41
+R42
+R43
+R12
+R13
+!s100 B5KCMch;T2h8RCo8YKEG11
+!i10b 1
+Emaq_semaforo
+Z44 w1600301422
+R2
+R3
+R4
+R5
+Z45 8/home/aluno/pasta_remota/DLP_20_1/Projeto/maq_semaforo.vhd
+Z46 F/home/aluno/pasta_remota/DLP_20_1/Projeto/maq_semaforo.vhd
+l0
+L5
+VMD@L=?PiUa@@T[=Xo]i=G1
+R8
+31
+Z47 !s108 1601490310.591251
+Z48 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/maq_semaforo.vhd|
+Z49 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/maq_semaforo.vhd|
+R12
+R13
+!s100 S4]`llHJPiTFbT0Sn0Z?F3
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 12 maq_semaforo 0 22 MD@L=?PiUa@@T[=Xo]i=G1
+l44
+L35
+VSP@O<J?_@IFVi?bh6[mHY2
+R8
+31
+R47
+R48
+R49
+R12
+R13
+!s100 OJ`kIJHfgJh^a7_=Hf7Tl0
+!i10b 1
+Eproj_semaforo
+Z50 w1601484923
+R2
+R3
+R4
+R5
+Z51 8/home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd
+Z52 F/home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd
+l0
+L5
+VR9aiRHf[1MWd;6<=cR=D`0
+R8
+32
+Z53 !s108 1601490352.961171
+Z54 !s90 -reportprogress|300|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd|
+Z55 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd|
+Z56 o-work work -O0
+R13
+!s100 ]8NS1>5JN7YFhWR7BC_7J1
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 13 proj_semaforo 0 22 R9aiRHf[1MWd;6<=cR=D`0
+l170
+L47
+VN_^ODO;52ER9ZaEd:53@33
+R8
+32
+R53
+R54
+R55
+R56
+R13
+!s100 dCS`NClQ<_mUNe0;VejDN1
+!i10b 1
+Eproj_semaforo_vhd_tst
+Z57 w1601490628
+R3
+R4
+R5
+Z58 8/home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+Z59 F/home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+l0
+L4
+VXmOb0CfliWJ5n[AlDD[AL0
+!s100 R4>MD4@=0Vam;[77hTgLO2
+R8
+32
+!i10b 1
+Z60 !s108 1601490646.636100
+Z61 !s90 -reportprogress|300|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht|
+Z62 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht|
+R56
+R13
+Aproj_semaforo_arch
+R3
+R4
+Z63 DEx4 work 21 proj_semaforo_vhd_tst 0 22 XmOb0CfliWJ5n[AlDD[AL0
+l58
+L7
+Z64 Vc8XZjnUVLA<;U>oa`n^M71
+Z65 !s100 83]<g5zk03?_JXnZ`M_ZA2
+R8
+32
+!i10b 1
+R60
+R61
+R62
+R56
+R13
+Esensor_faixa
+Z66 w1599707078
+R2
+R3
+R4
+R5
+Z67 8/home/aluno/pasta_remota/DLP_20_1/Projeto/Sensor_faixa.vhd
+Z68 F/home/aluno/pasta_remota/DLP_20_1/Projeto/Sensor_faixa.vhd
+l0
+L5
+VnB2URDFndVo1lCROWMSi?3
+R8
+31
+Z69 !s108 1601490316.532050
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/Sensor_faixa.vhd|
+Z71 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/Sensor_faixa.vhd|
+R12
+R13
+!s100 oXk7L<mQ@fcL6AQN::PLI2
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 12 sensor_faixa 0 22 nB2URDFndVo1lCROWMSi?3
+l15
+L14
+VP>m@Ng?7114X5XiMzloNg1
+R8
+31
+R69
+R70
+R71
+R12
+R13
+!s100 7T:M7`FiWEB>VMgW<7Bc?1
+!i10b 1
+Esensorn_vias
+Z72 w1599703579
+R2
+R3
+R4
+R5
+Z73 8/home/aluno/pasta_remota/DLP_20_1/Projeto/SensorN_vias.vhd
+Z74 F/home/aluno/pasta_remota/DLP_20_1/Projeto/SensorN_vias.vhd
+l0
+L87
+VWg_@ON_jdhTg@Z0GQaS^j2
+R8
+31
+Z75 !s108 1601490313.482955
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP_20_1/Projeto/SensorN_vias.vhd|
+Z77 !s107 /home/aluno/pasta_remota/DLP_20_1/Projeto/SensorN_vias.vhd|
+R12
+R13
+!s100 M=JWeWe5248]=zVM;ZHm?0
+!i10b 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 12 sensorn_vias 0 22 Wg_@ON_jdhTg@Z0GQaS^j2
+l98
+L97
+VB03dDZ6IInmk78zH=GbjT2
+R8
+31
+R75
+R76
+R77
+R12
+R13
+!s100 =A35Ab9P3c:8I=EVeW1c>2
+!i10b 1

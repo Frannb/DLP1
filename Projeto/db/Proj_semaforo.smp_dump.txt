@@ -1,0 +1,9 @@
+
+State Machine - |Proj_semaforo|maq_semaforo:C2|pr_state
+Name pr_state.RR pr_state.RG pr_state.YR pr_state.GR2 pr_state.GR_WAIT pr_state.GR1 
+pr_state.GR1 0 0 0 0 0 0 
+pr_state.GR_WAIT 0 0 0 0 1 1 
+pr_state.GR2 0 0 0 1 0 1 
+pr_state.YR 0 0 1 0 0 1 
+pr_state.RG 0 1 0 0 0 1 
+pr_state.RR 1 0 0 0 0 1 

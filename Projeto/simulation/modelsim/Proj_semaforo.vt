@@ -1,0 +1,96 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "09/30/2020 18:07:28"
+                                                                                
+// Verilog Test Bench template for design : Proj_semaforo
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module Proj_semaforo_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg B_ped1;
+reg B_ped2;
+reg clk50MHz;
+reg Foto_celula;
+reg rst;
+reg Sensor_V1;
+reg Sensor_V2;
+reg Sensor_V3;
+// wires                                               
+wire Acende_faixa;
+wire bip1;
+wire bip2;
+wire COLUNA0;
+wire G_pedestre;
+wire G_veiculos;
+wire R_pedestre;
+wire R_veiculos;
+wire [6:0]  SSD_D1;
+wire [6:0]  SSD_U1;
+wire Y_veiculos;
+
+// assign statements (if any)                          
+Proj_semaforo i1 (
+// port map - connection between master ports and signals/registers   
+	.Acende_faixa(Acende_faixa),
+	.B_ped1(B_ped1),
+	.B_ped2(B_ped2),
+	.bip1(bip1),
+	.bip2(bip2),
+	.clk50MHz(clk50MHz),
+	.COLUNA0(COLUNA0),
+	.Foto_celula(Foto_celula),
+	.G_pedestre(G_pedestre),
+	.G_veiculos(G_veiculos),
+	.R_pedestre(R_pedestre),
+	.R_veiculos(R_veiculos),
+	.rst(rst),
+	.Sensor_V1(Sensor_V1),
+	.Sensor_V2(Sensor_V2),
+	.Sensor_V3(Sensor_V3),
+	.SSD_D1(SSD_D1),
+	.SSD_U1(SSD_U1),
+	.Y_veiculos(Y_veiculos)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+                                                       
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

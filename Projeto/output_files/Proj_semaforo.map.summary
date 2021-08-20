@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 30 17:32:50 2020
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Proj_semaforo
+Top-level Entity Name : Proj_semaforo
+Family : Cyclone IV E
+Total logic elements : 201
+    Total combinational functions : 198
+    Dedicated logic registers : 15
+Total registers : 15
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

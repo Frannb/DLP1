@@ -1,0 +1,87 @@
+Archive Project report for teste_timer00_99
+Mon Jun 15 20:42:00 2020
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Jun 15 20:42:00 2020 ;
+; Revision Name          ; teste_timer00_99                      ;
+; Top-level Entity Name  ; teste_timer00_99                      ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '/home/francin.b/DLP I (20-1)/Timer/output_files/teste_timer00_99.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'teste_timer00_99.archive.rpt'
+Info (23030): Evaluation of Tcl script /opt/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 277 megabytes
+    Info: Processing ended: Mon Jun 15 20:42:00 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------------+
+; Files Archived                                                  ;
++-----------------------------------------------------------------+
+; File Name                                                       ;
++-----------------------------------------------------------------+
+; /home/francin.b/DLP I (20-1)/Timer/output_files/tb_bintobcd.vwf ;
+; /opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf       ;
+; bin2bcd_UD.vhd                                                  ;
+; bin2ssd.vhd                                                     ;
+; contadorNbin.vhd                                                ;
+; div_clk.vhd                                                     ;
+; incremental_db/compiled_partitions/teste_timer00_99.db_info     ;
+; output_files/tb_bintobcd.vwf                                    ;
+; output_files/tb_bintossd.vwf                                    ;
+; output_files/tb_contador00a99.vwf                               ;
+; output_files/tb_div_clk.vwf                                     ;
+; output_files/teste_timer00_99.sof                               ;
+; teste_timer00_99.qpf                                            ;
+; teste_timer00_99.qsf                                            ;
+; teste_timer00_99.vhd                                            ;
++-----------------------------------------------------------------+
+
+

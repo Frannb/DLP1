@@ -1,0 +1,25 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.qar
+Date:		Tue Apr  7 12:37:37 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/Waveform.vwf
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/Waveform1.vwf
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/db/operadores.sim.vwf
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/incremental_db/compiled_partitions/operadores.db_info
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.qpf
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.qsf
+/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.vhd
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Apr  7 12:41:04 2020
+Source archive file:	/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores.qar
+Archive was extracted into	/home/francin.b/DLP I (20-1)/AE2 - Multiplicador Divisor Somador Subtrator com sinal/operadores_restored/
+		 - successfully.

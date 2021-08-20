@@ -1,0 +1,41 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+LIBRARY work;
+ENTITY teste_timer00_99 IS
+	GENERIC (NbitG : natural := 7; MaxG : natural := 99; fclkG : natural := 5; nclkG : natural := 3);
+	PORT
+	(
+		clk50MHz_in :  IN  STD_LOGIC;
+		rst_in :  IN  STD_LOGIC;
+		conta_out :  OUT  STD_LOGIC_VECTOR(NbitG-1 DOWNTO 0)
+	);
+END ENTITY;
+ARCHITECTURE comp_ifsc OF teste_timer00_99 IS
+	-- Declarar as componentes utilizadas
+	component div_clk is
+		generic (fclk : natural := 10; Nclk : natural := 4);
+		port (
+				clk50MHz,rst: in std_logic;
+				ena1seg: out std_logic
+				);
+			
+	end component;
+	
+	component contadorNbin is
+		generic (Max : positive := 9; Nbits : natural := 4);
+		port (
+				clk50MHz,rst: in std_logic;
+				ena1seg: in std_logic;
+				conta:  out std_logic_vector(Nbits-1 downto 0)
+				);
+	end component;
+	-- Declarar os sinais que interligam os componentes
+	signal ena1seg_sig :  STD_LOGIC;
+BEGIN
+	U1: div_clk
+		generic map (fclk => fclkG, Nclk => NclkG)		
+		port map (clk50MHz => clk50MHz_in ,rst => rst_in, ena1seg => ena1seg_sig);
+	U2: contadorNbin
+		generic map (Max => MaxG, Nbits => NbitG)
+		port map (clk50MHz => clk50MHz_in, rst => rst_in, ena1seg => ena1seg_sig, conta => conta_out);
+END ARCHITECTURE;

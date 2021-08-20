@@ -1,0 +1,201 @@
+# do Proj_semaforo_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/altera/13.0sp1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proj_semaforo
+# -- Compiling architecture FRANCIN of Proj_semaforo
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/divisor_clk.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity divisor_clk
+# -- Compiling architecture FRANCIN of divisor_clk
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2bcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin2bcd
+# -- Compiling architecture FRANCIN of bin2bcd
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/bin2ssd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin2ssd
+# -- Compiling architecture ifsc of bin2ssd
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/maq_semaforo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity maq_semaforo
+# -- Compiling architecture FRANCIN of maq_semaforo
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/SensorN_vias.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SensorN_vias
+# -- Compiling architecture FRANCIN of SensorN_vias
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/Sensor_faixa.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Sensor_faixa
+# -- Compiling architecture FRANCIN of Sensor_faixa
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/Botao_ped.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Botao_ped
+# -- Compiling architecture FRANCIN of Botao_ped
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/bin_bcd_ssd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bin_bcd_ssd
+# -- Compiling architecture FRANCIN of bin_bcd_ssd
+# vcom -93 -work work {/home/aluno/pasta_remota/DLP_20_1/Projeto/Decrementador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decrementador
+# -- Compiling architecture FRANCIN of Decrementador
+# 
+vcom -reportprogress 300 -work work /home/aluno/pasta_remota/DLP_20_1/Projeto/Proj_semaforo.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proj_semaforo
+# -- Compiling architecture FRANCIN of Proj_semaforo
+vcom -reportprogress 300 -work work /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Proj_semaforo_vhd_tst
+# -- Compiling architecture Proj_semaforo_arch of Proj_semaforo_vhd_tst
+vsim -voptargs=+acc rtl_work.proj_semaforo_vhd_tst
+# vsim -voptargs=+acc rtl_work.proj_semaforo_vhd_tst 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 Linux 4.15.0-117-generic
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading rtl_work.proj_semaforo_vhd_tst(proj_semaforo_arch)
+# Loading ieee.numeric_std(body)
+# Loading rtl_work.proj_semaforo(francin)
+# Loading rtl_work.divisor_clk(francin)
+# Loading rtl_work.maq_semaforo(francin)
+# Loading rtl_work.sensorn_vias(francin)
+# Loading rtl_work.sensor_faixa(francin)
+# Loading rtl_work.botao_ped(francin)
+# Loading rtl_work.decrementador(francin)
+# Loading rtl_work.bin_bcd_ssd(francin)
+# Loading rtl_work.bin2bcd(francin)
+# Loading rtl_work.bin2ssd(ifsc)
+add wave -position insertpoint  \
+sim:/proj_semaforo_vhd_tst/Acende_faixa \
+sim:/proj_semaforo_vhd_tst/B_ped1 \
+sim:/proj_semaforo_vhd_tst/B_ped2 \
+sim:/proj_semaforo_vhd_tst/bip1 \
+sim:/proj_semaforo_vhd_tst/bip2 \
+sim:/proj_semaforo_vhd_tst/clk50MHz \
+sim:/proj_semaforo_vhd_tst/COLUNA0 \
+sim:/proj_semaforo_vhd_tst/Foto_celula \
+sim:/proj_semaforo_vhd_tst/G_pedestre \
+sim:/proj_semaforo_vhd_tst/G_veiculos \
+sim:/proj_semaforo_vhd_tst/R_pedestre \
+sim:/proj_semaforo_vhd_tst/R_veiculos \
+sim:/proj_semaforo_vhd_tst/rst \
+sim:/proj_semaforo_vhd_tst/Sensor_V1 \
+sim:/proj_semaforo_vhd_tst/Sensor_V2 \
+sim:/proj_semaforo_vhd_tst/Sensor_V3 \
+sim:/proj_semaforo_vhd_tst/SSD_D1 \
+sim:/proj_semaforo_vhd_tst/SSD_U1 \
+sim:/proj_semaforo_vhd_tst/Y_veiculos
+run 1000 sec
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ps  Iteration: 0  Process: /proj_semaforo_vhd_tst/sim_Foto_celula File: /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+# Fatal error in Architecture Proj_semaforo_arch at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht line 103
+# 
+# HDL call sequence:
+# Stopped at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht 103 Architecture Proj_semaforo_arch
+# 
+vcom -reportprogress 300 -work work /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Proj_semaforo_vhd_tst
+# -- Compiling architecture Proj_semaforo_arch of Proj_semaforo_vhd_tst
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht 103 Architecture Proj_semaforo_arch
+# 
+run 10 sec
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht 103 Architecture Proj_semaforo_arch
+# 
+run 10 sec
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht 103 Architecture Proj_semaforo_arch
+# 
+vcom -reportprogress 300 -work work /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Proj_semaforo_vhd_tst
+# -- Compiling architecture Proj_semaforo_arch of Proj_semaforo_vhd_tst
+vcom -reportprogress 300 -work work /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Proj_semaforo_vhd_tst
+# -- Compiling architecture Proj_semaforo_arch of Proj_semaforo_vhd_tst
+run 10 sec
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/aluno/pasta_remota/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht 103 Architecture Proj_semaforo_arch
+# 

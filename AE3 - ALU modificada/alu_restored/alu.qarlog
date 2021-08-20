@@ -1,0 +1,19 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/alu.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/alu.qar
+Date:		Tue Apr 28 15:39:48 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/Waveform.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/Waveform1.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/alu.qpf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/alu.qsf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/alu.vhd
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/assignment_defaults.qdf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/db/alu.sim.vwf
+/home/francin.b/DLP I (20-1)/Tarefas/AE3 - ALU modificada/alu_restored/incremental_db/compiled_partitions/alu.db_info
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

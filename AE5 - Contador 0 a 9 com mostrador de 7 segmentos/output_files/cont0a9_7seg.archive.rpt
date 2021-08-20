@@ -1,0 +1,80 @@
+Archive Project report for cont0a9_7seg
+Sat Jun 13 17:52:56 2020
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sat Jun 13 17:52:56 2020 ;
+; Revision Name          ; cont0a9_7seg                          ;
+; Top-level Entity Name  ; cont0a9_7seg                          ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '/home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'cont0a9_7seg.archive.rpt'
+Info (23030): Evaluation of Tcl script /opt/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 273 megabytes
+    Info: Processing ended: Sat Jun 13 17:52:56 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                            ;
++-----------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                 ;
++-----------------------------------------------------------------------------------------------------------+
+; /home/francin.b/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/tb_contador0a9.vwf ;
+; /opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf                                                 ;
+; cont0a9_7seg.qpf                                                                                          ;
+; cont0a9_7seg.qsf                                                                                          ;
+; cont0a9_7seg.vhd                                                                                          ;
+; incremental_db/compiled_partitions/cont0a9_7seg.db_info                                                   ;
+; output_files/cont0a9_7seg.sof                                                                             ;
+; tb_contador0a9.vwf                                                                                        ;
++-----------------------------------------------------------------------------------------------------------+
+
+

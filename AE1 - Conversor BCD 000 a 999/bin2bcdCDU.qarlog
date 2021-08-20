@@ -1,0 +1,18 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/bin2bcdCDU.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/bin2bcdCDU.qar
+Date:		Thu Apr  9 17:15:04 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/Waveform.vwf
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/bin2bcdCDU.qpf
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/bin2bcdCDU.qsf
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/bin2bcdCDU.vhd
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/db/bin2bcdCDU.sim.vwf
+/home/francin.b/DLP I (20-1)/AE1 - Conversor BCD 000 a 999/incremental_db/compiled_partitions/bin2bcdCDU.db_info
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

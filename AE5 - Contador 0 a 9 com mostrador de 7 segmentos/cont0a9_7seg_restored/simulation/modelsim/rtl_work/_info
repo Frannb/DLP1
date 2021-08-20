@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/simulation/modelsim
+Econt0a9_7seg
+Z1 w1592070773
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 d/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/simulation/modelsim
+Z6 8/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/cont0a9_7seg.vhd
+Z7 F/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/cont0a9_7seg.vhd
+l0
+L5
+V^GcN8cMC=a6fm@5?DNRbg0
+!s100 Zl89iakXPe]Ao4LX]==Il1
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1597885801.639791
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/cont0a9_7seg.vhd|
+Z11 !s107 /home/aluno/pasta_remota/DLP I (20-1)/Tarefas/AE5 - Contador 0 a 9 com mostrador de 7 segmentos/cont0a9_7seg_restored/cont0a9_7seg.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Afrancin
+R2
+R3
+R4
+DEx4 work 12 cont0a9_7seg 0 22 ^GcN8cMC=a6fm@5?DNRbg0
+l26
+L18
+VzPlPS<Q[1E=MGXKC7@XC_0
+!s100 32^ljKH4YmH]ZL8QD[i0M2
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13

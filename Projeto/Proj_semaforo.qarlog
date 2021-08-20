@@ -1,0 +1,46 @@
+Quartus II Archive log --	/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.qarlog
+
+Archive:	/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.qar
+Date:		Wed Sep 30 18:51:34 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP_20_1/Projeto/Botao_ped.vhd
+/home/francin.b/DLP_20_1/Projeto/Decrementador.vhd
+/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.qpf
+/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.qsf
+/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.vhd
+/home/francin.b/DLP_20_1/Projeto/Qsim_SensorN_vias.vwf
+/home/francin.b/DLP_20_1/Projeto/Qsim_Sensor_Faixa.vwf
+/home/francin.b/DLP_20_1/Projeto/Qsim_bin2bcd.vwf
+/home/francin.b/DLP_20_1/Projeto/Qsim_bin2ssd.vwf
+/home/francin.b/DLP_20_1/Projeto/SensorN_vias.vhd
+/home/francin.b/DLP_20_1/Projeto/Sensor_faixa.vhd
+/home/francin.b/DLP_20_1/Projeto/bin2bcd.vhd
+/home/francin.b/DLP_20_1/Projeto/bin2ssd.vhd
+/home/francin.b/DLP_20_1/Projeto/bin_bcd_ssd.vhd
+/home/francin.b/DLP_20_1/Projeto/db/Proj_semaforo.sim.vwf
+/home/francin.b/DLP_20_1/Projeto/divisor_clk.vhd
+/home/francin.b/DLP_20_1/Projeto/incremental_db/compiled_partitions/Proj_semaforo.db_info
+/home/francin.b/DLP_20_1/Projeto/maq_semaforo.vhd
+/home/francin.b/DLP_20_1/Projeto/simulation/modelsim/Proj_semaforo.vht
+/home/francin.b/DLP_20_1/Projeto/simulation/modelsim/tb_proj_semaforo.do
+/home/francin.b/DLP_20_1/Projeto/simulation/modelsim/tb_projeto_completo.do
+/home/francin.b/DLP_20_1/Projeto/simulation/modelsim/tb_teste_cont.do
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Sep 30 18:51:47 2020
+Source archive file:	/home/francin.b/DLP_20_1/Projeto/Proj_semaforo.qar
+Archive was extracted into	/home/francin.b/DLP_20_1/Projeto/Proj_semaforo_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Sun Dec  6 23:09:44 2020
+Source archive file:	/home/francin.b/COISAS/DLP_20_1/Projeto/Proj_semaforo.qar
+Archive was extracted into	/home/francin.b/COISAS/DLP_20_1/Projeto/Proj_semaforo_restored/
+		 - successfully.

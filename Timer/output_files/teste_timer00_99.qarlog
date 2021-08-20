@@ -1,0 +1,25 @@
+Quartus II Archive log --	/home/francin.b/DLP I (20-1)/Timer/output_files/teste_timer00_99.qarlog
+
+Archive:	/home/francin.b/DLP I (20-1)/Timer/output_files/teste_timer00_99.qar
+Date:		Mon Jun 15 20:42:00 2020
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/francin.b/DLP I (20-1)/Timer/bin2bcd_UD.vhd
+/home/francin.b/DLP I (20-1)/Timer/bin2ssd.vhd
+/home/francin.b/DLP I (20-1)/Timer/contadorNbin.vhd
+/home/francin.b/DLP I (20-1)/Timer/div_clk.vhd
+/home/francin.b/DLP I (20-1)/Timer/incremental_db/compiled_partitions/teste_timer00_99.db_info
+/home/francin.b/DLP I (20-1)/Timer/output_files/tb_bintobcd.vwf
+/home/francin.b/DLP I (20-1)/Timer/output_files/tb_bintossd.vwf
+/home/francin.b/DLP I (20-1)/Timer/output_files/tb_contador00a99.vwf
+/home/francin.b/DLP I (20-1)/Timer/output_files/tb_div_clk.vwf
+/home/francin.b/DLP I (20-1)/Timer/output_files/teste_timer00_99.sof
+/home/francin.b/DLP I (20-1)/Timer/teste_timer00_99.qpf
+/home/francin.b/DLP I (20-1)/Timer/teste_timer00_99.qsf
+/home/francin.b/DLP I (20-1)/Timer/teste_timer00_99.vhd
+/opt/altera/13.0sp1/quartus/linux/assignment_defaults.qdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
